@@ -7,7 +7,7 @@ Gemfile - wszystkie podłączone gemy (biblioteki)
 app/models - bazy danych
 app/views - strony internetowe
 app/controller - kod do obsługi stron (pliki z kodem do obsługi stron tutaj, a nie w views) 
-app/assets - coś jak css
+app/assets/stylesheets - pliki css
 config/routes.rb - zmiana strony startowej, dodanie podstron
 app/views/layouts/application.html.erb - szablon strony
 
@@ -21,3 +21,6 @@ Do stworzenia nowej strony:
 3. W app/controller/config/routes.rb dopisać get 'folder/nazwa_pliku'
 
 Pliki html.erb ładowane w application.html.erb muszą mieć na początku nazwy '_'
+
+komenda rails g scaffold nazwa_tablicy kolumna1:typ_zmiennej kolumna2:typ_zmiennej ... - tworzenie tablicy do bazy danych
+komenda rails db:migrate - dodaje utworzone tablice do bazy danych
