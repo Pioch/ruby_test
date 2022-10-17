@@ -846,3 +846,121 @@ app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `d
 app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
 app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
 app/views/layouts/application.html.erb:20
+Started GET "/" for 127.0.0.1 at 2022-10-17 13:23:23 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.5ms | Allocations: 335)
+  Rendered home/_header.html.erb (Duration: 39.9ms | Allocations: 1556)
+  Rendered layout layouts/application.html.erb (Duration: 1464.3ms | Allocations: 36362)
+Completed 500 Internal Server Error in 1515ms (ActiveRecord: 0.0ms | Allocations: 39697)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+
+    <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <%= link_to 'About', home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+        </li>
+        <li class="nav-item">
+            <%= link_to 'Friends', home_friends_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    
+2:    <nav class="navbar navbar-expand-lg bg-dark">
+3:      <div class="container-fluid">
+4:    
+5:        <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+6:    
+7:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+8:          <span class="navbar-toggler-icon"></span>
+9:        </button>
+10:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+11:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+12:            <li class="nav-item">
+13:                <%= link_to 'About', home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+14:            </li>
+15:            <li class="nav-item">
+16:                <%= link_to 'Friends', home_friends_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+17:            </li>
+18:    
+19:          </ul>
+20:          <form class="d-flex" role="search">
+21:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+22:            <button class="btn btn-outline-light" type="submit">Search</button>
+23:          </form>
+24:        </div>
+25:      </div>
+26:    </nav>
+  
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:16: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:16: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:16: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:16: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:16: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:16: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:20
+Started GET "/" for 127.0.0.1 at 2022-10-17 13:25:43 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 4.9ms | Allocations: 404)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 3414)
+Completed 200 OK in 51ms (Views: 46.1ms | ActiveRecord: 0.0ms | Allocations: 4302)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-10-17 13:25:49 +0200
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 2.9ms | Allocations: 94)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 2673)
+Completed 200 OK in 40ms (Views: 33.2ms | ActiveRecord: 0.0ms | Allocations: 3012)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-17 13:25:50 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 2538)
+Completed 200 OK in 30ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 2796)
+
+
+Started GET "/home/friends" for 127.0.0.1 at 2022-10-17 13:25:51 +0200
+Processing by HomeController#friends as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/friends.html.erb within layouts/application
+  Rendered home/friends.html.erb within layouts/application (Duration: 4.4ms | Allocations: 94)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 2631)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 2892)
+
+
