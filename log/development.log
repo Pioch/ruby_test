@@ -1,0 +1,848 @@
+Started GET "/" for 127.0.0.1 at 2022-10-14 10:53:38 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/piotr/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/piotr/.rvm/gems/ruby-3.1.2/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.6ms | Allocations: 634)
+Completed 200 OK in 98ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 5094)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-10-14 12:07:39 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 1823.9ms | Allocations: 86670)
+Completed 200 OK in 1866ms (Views: 1833.9ms | ActiveRecord: 0.0ms | Allocations: 90063)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-10-14 12:09:12 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 2971)
+Completed 200 OK in 36ms (Views: 32.9ms | ActiveRecord: 0.0ms | Allocations: 3855)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2022-10-14 12:13:00 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:14:16 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 57.0ms | Allocations: 13995)
+Completed 200 OK in 65ms (Views: 63.8ms | Allocations: 14627)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:15:52 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 335)
+  Rendered layout layouts/application.html.erb (Duration: 508.7ms | Allocations: 34697)
+Completed 200 OK in 538ms (Views: 522.8ms | ActiveRecord: 0.0ms | Allocations: 38090)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:16:02 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 2935)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.0ms | Allocations: 3819)
+
+
+Started GET "/rails/conductor/action_mailbox/ails/conductor/action_mailbox/inbound_emails/index" for 127.0.0.1 at 2022-10-14 12:19:27 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/rails/conductor/action_mailbox/ails/conductor/action_mailbox/inbound_emails/index"):
+  
+Started GET "/rails/conductor/action_mailbox/ails/conductor/action_mailbox/inbound_emails/index.html" for 127.0.0.1 at 2022-10-14 12:19:32 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/rails/conductor/action_mailbox/ails/conductor/action_mailbox/inbound_emails/index.html"):
+  
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:20:26 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 223.7ms | Allocations: 34290)
+Completed 200 OK in 243ms (Views: 233.5ms | ActiveRecord: 0.0ms | Allocations: 36529)
+
+
+Started GET "//recede_historical_location" for 127.0.0.1 at 2022-10-14 12:22:41 +0200
+Processing by Turbo::Native::NavigationController#recede as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.2ms | Allocations: 14)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 730)
+
+
+Started GET "/recede_historical_location" for 127.0.0.1 at 2022-10-14 12:22:46 +0200
+Processing by Turbo::Native::NavigationController#recede as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 6ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 220)
+
+
+Started GET "/rails/action_mailbox/mandrill/inbound_emails" for 127.0.0.1 at 2022-10-14 12:23:10 +0200
+Processing by ActionMailbox::Ingresses::Mandrill::InboundEmailsController#health_check as HTML
+Filter chain halted as :ensure_configured rendered or redirected
+Completed 404 Not Found in 3ms (ActiveRecord: 0.0ms | Allocations: 248)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:23:19 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 2549)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms | Allocations: 2856)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:27:40 +0200
+  
+SyntaxError (/home/piotr/ruby_test/projekt1/app/controllers/home_controller.rb:4: syntax error, unexpected ')'
+    for(i = 0; i <= 10; i++) {
+                           ^
+/home/piotr/ruby_test/projekt1/app/controllers/home_controller.rb:6: syntax error, unexpected '}', expecting ')'
+    }
+    ^
+):
+  
+app/controllers/home_controller.rb:4: syntax error, unexpected ')'
+app/controllers/home_controller.rb:6: syntax error, unexpected '}', expecting ')'
+app/controllers/home_controller.rb:4: syntax error, unexpected ')'
+app/controllers/home_controller.rb:6: syntax error, unexpected '}', expecting ')'
+app/controllers/home_controller.rb:4: syntax error, unexpected ')'
+app/controllers/home_controller.rb:6: syntax error, unexpected '}', expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:28:36 +0200
+  
+SyntaxError (/home/piotr/ruby_test/projekt1/app/controllers/home_controller.rb:6: unterminated string meets end of file
+/home/piotr/ruby_test/projekt1/app/controllers/home_controller.rb:6: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/home_controller.rb:6: unterminated string meets end of file
+app/controllers/home_controller.rb:6: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/home_controller.rb:6: unterminated string meets end of file
+app/controllers/home_controller.rb:6: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/home_controller.rb:6: unterminated string meets end of file
+app/controllers/home_controller.rb:6: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:28:52 +0200
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 7ms (Allocations: 1462)
+
+
+  
+NoMethodError (undefined method `log' for nil:NilClass
+
+    console.log("cos");
+           ^^^^):
+  
+app/controllers/home_controller.rb:4:in `index'
+Started GET "/" for 127.0.0.1 at 2022-10-14 12:54:09 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 36.4ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 549.0ms | Allocations: 14314)
+Completed 200 OK in 639ms (Views: 577.8ms | Allocations: 15273)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 13:48:42 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 145.7ms | Allocations: 14236)
+Completed 200 OK in 169ms (Views: 162.5ms | Allocations: 15190)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:13:40 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 45.6ms | Allocations: 2360)
+Completed 200 OK in 67ms (Views: 64.9ms | Allocations: 2632)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:15:21 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 161.2ms | Allocations: 2948)
+Completed 200 OK in 248ms (Views: 218.3ms | Allocations: 3761)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:15:29 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 2946)
+Completed 200 OK in 34ms (Views: 31.5ms | Allocations: 3777)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:16:39 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 2941)
+Completed 200 OK in 41ms (Views: 36.6ms | Allocations: 3772)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:17:02 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 2955)
+Completed 200 OK in 25ms (Views: 22.2ms | Allocations: 3786)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:24:23 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 2.4ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 3225)
+Completed 200 OK in 74ms (Views: 64.8ms | Allocations: 4056)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-10-14 14:24:53 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/about" for 127.0.0.1 at 2022-10-14 14:25:34 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/about"):
+  
+Started GET "/home/about" for 127.0.0.1 at 2022-10-14 14:26:32 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/home/about"):
+  
+Started GET "/home/about" for 127.0.0.1 at 2022-10-14 14:28:02 +0200
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.4ms | Allocations: 120)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 100)
+  Rendered layout layouts/application.html.erb (Duration: 364.1ms | Allocations: 35168)
+Completed 200 OK in 383ms (Views: 368.9ms | Allocations: 37373)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:33:48 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 96)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 2509)
+Completed 200 OK in 27ms (Views: 24.6ms | Allocations: 2833)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:35:28 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 65.7ms | Allocations: 3201)
+Completed 200 OK in 76ms (Views: 69.2ms | Allocations: 4018)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:36:31 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 4674)
+Completed 500 Internal Server Error in 58ms (Allocations: 5505)
+
+
+  
+ActionView::Template::Error (Missing partial home/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/piotr/ruby_test/projekt1/app/views"
+  * "/home/piotr/.rvm/gems/ruby-3.1.2/gems/actiontext-7.0.4/app/views"
+  * "/home/piotr/.rvm/gems/ruby-3.1.2/gems/actionmailbox-7.0.4/app/views"
+
+Did you mean?  action_text/attachables/remote_image
+               action_text/contents/content
+               layouts/action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               action_text/attachables/missing_attachable
+               active_storage/blobs/blob):
+    17:   </head>
+    18:   <body>
+    19: 
+    20:   <%= render 'home/header' %> <!-- <%= %> jak ma być wyświetlone na stronie, <% %> jak nie-->
+    21: 
+    22:   <div class="container">
+    23:     <br>
+  
+app/views/layouts/application.html.erb:20
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:36:54 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 3213)
+Completed 200 OK in 33ms (Views: 30.8ms | Allocations: 4037)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:40:15 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.1ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 3266)
+Completed 200 OK in 27ms (Views: 24.6ms | Allocations: 4096)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:40:53 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 126)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 26.7ms | Allocations: 3266)
+Completed 200 OK in 34ms (Views: 30.4ms | Allocations: 4097)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:41:32 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 3236)
+Completed 200 OK in 54ms (Views: 51.7ms | Allocations: 4066)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:41:46 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 6.2ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 24.8ms | Allocations: 3227)
+Completed 200 OK in 32ms (Views: 29.0ms | Allocations: 4057)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:41:59 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.0ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 3227)
+Completed 200 OK in 35ms (Views: 28.2ms | Allocations: 4057)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:42:35 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 6.1ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 26.8ms | Allocations: 3242)
+Completed 200 OK in 38ms (Views: 34.8ms | Allocations: 4072)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:43:42 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.6ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 3231)
+Completed 200 OK in 51ms (Views: 40.9ms | Allocations: 4061)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:44:13 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 2.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 3241)
+Completed 200 OK in 40ms (Views: 30.7ms | Allocations: 4081)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:45:05 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 3246)
+Completed 200 OK in 28ms (Views: 26.4ms | Allocations: 4076)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:45:48 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.5ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 3249)
+Completed 200 OK in 44ms (Views: 32.5ms | Allocations: 4079)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:46:38 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 3243)
+Completed 200 OK in 31ms (Views: 28.5ms | Allocations: 4073)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:47:07 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.2ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 3231)
+Completed 200 OK in 33ms (Views: 30.5ms | Allocations: 4061)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:47:39 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered home/_header.html.erb (Duration: 0.2ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2421)
+Completed 200 OK in 20ms (Views: 18.9ms | Allocations: 2692)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:47:51 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 1.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 3240)
+Completed 200 OK in 55ms (Views: 52.3ms | Allocations: 4052)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:48:29 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 17.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 3240)
+Completed 200 OK in 53ms (Views: 49.7ms | Allocations: 4070)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:49:25 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 2.2ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 3222)
+Completed 200 OK in 43ms (Views: 40.7ms | Allocations: 4052)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:50:23 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 14.3ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 3233)
+Completed 200 OK in 56ms (Views: 51.8ms | Allocations: 4063)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:54:18 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered home/_header.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 2409)
+Completed 200 OK in 23ms (Views: 21.1ms | Allocations: 2681)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:54:27 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 2.5ms | Allocations: 258)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 3358)
+Completed 200 OK in 35ms (Views: 31.5ms | Allocations: 4170)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-10-14 14:54:48 +0200
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 2.9ms | Allocations: 95)
+  Rendered home/_header.html.erb (Duration: 0.4ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 37.4ms | Allocations: 2543)
+Completed 200 OK in 44ms (Views: 42.4ms | Allocations: 2867)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:55:00 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered home/_header.html.erb (Duration: 0.3ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 39.5ms | Allocations: 2483)
+Completed 200 OK in 42ms (Views: 41.4ms | Allocations: 2739)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:55:02 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered home/_header.html.erb (Duration: 0.5ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 2470)
+Completed 200 OK in 21ms (Views: 20.1ms | Allocations: 2726)
+
+
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:58:39 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 128)
+  Rendered home/_header.html.erb (Duration: 2.8ms | Allocations: 1228)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 4321)
+Completed 500 Internal Server Error in 33ms (Allocations: 5111)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+
+    <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <%= link_to 'About', home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    
+2:    <nav class="navbar navbar-expand-lg bg-dark">
+3:      <div class="container-fluid">
+4:    
+5:        <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+6:    
+7:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+8:          <span class="navbar-toggler-icon"></span>
+9:        </button>
+10:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+11:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+12:            <li class="nav-item">
+13:                <%= link_to 'About', home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+14:            </li>
+15:    
+16:          </ul>
+17:          <form class="d-flex" role="search">
+18:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+19:            <button class="btn btn-outline-light" type="submit">Search</button>
+20:          </form>
+21:        </div>
+22:      </div>
+23:    </nav>
+  
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:20
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:58:51 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered home/_header.html.erb (Duration: 4.4ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 3613)
+Completed 500 Internal Server Error in 22ms (Allocations: 3861)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+
+    <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <%= link_to 'About', home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    
+2:    <nav class="navbar navbar-expand-lg bg-dark">
+3:      <div class="container-fluid">
+4:    
+5:        <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+6:    
+7:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+8:          <span class="navbar-toggler-icon"></span>
+9:        </button>
+10:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+11:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+12:            <li class="nav-item">
+13:                <%= link_to 'About', home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+14:            </li>
+15:    
+16:          </ul>
+17:          <form class="d-flex" role="search">
+18:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+19:            <button class="btn btn-outline-light" type="submit">Search</button>
+20:          </form>
+21:        </div>
+22:      </div>
+23:    </nav>
+  
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:20
+Started GET "/" for 127.0.0.1 at 2022-10-14 14:59:31 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered home/_header.html.erb (Duration: 3.8ms | Allocations: 1203)
+  Rendered layout layouts/application.html.erb (Duration: 30.8ms | Allocations: 3613)
+Completed 500 Internal Server Error in 35ms (Allocations: 3843)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+
+    <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <%= link_to 'About', home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    
+2:    <nav class="navbar navbar-expand-lg bg-dark">
+3:      <div class="container-fluid">
+4:    
+5:        <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+6:    
+7:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+8:          <span class="navbar-toggler-icon"></span>
+9:        </button>
+10:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+11:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+12:            <li class="nav-item">
+13:                <%= link_to 'About', home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+14:            </li>
+15:    
+16:          </ul>
+17:          <form class="d-flex" role="search">
+18:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+19:            <button class="btn btn-outline-light" type="submit">Search</button>
+20:          </form>
+21:        </div>
+22:      </div>
+23:    </nav>
+  
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:20
+Started GET "/" for 127.0.0.1 at 2022-10-14 15:00:50 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 123)
+  Rendered home/_header.html.erb (Duration: 15.6ms | Allocations: 1217)
+  Rendered layout layouts/application.html.erb (Duration: 43.1ms | Allocations: 4320)
+Completed 500 Internal Server Error in 54ms (Allocations: 5100)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+
+    <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <%= link_to 'About', _home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    
+2:    <nav class="navbar navbar-expand-lg bg-dark">
+3:      <div class="container-fluid">
+4:    
+5:        <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+6:    
+7:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+8:          <span class="navbar-toggler-icon"></span>
+9:        </button>
+10:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+11:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+12:            <li class="nav-item">
+13:                <%= link_to 'About', _home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+14:            </li>
+15:    
+16:          </ul>
+17:          <form class="d-flex" role="search">
+18:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+19:            <button class="btn btn-outline-light" type="submit">Search</button>
+20:          </form>
+21:        </div>
+22:      </div>
+23:    </nav>
+  
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:20
+Started GET "/" for 127.0.0.1 at 2022-10-14 15:00:52 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered home/_header.html.erb (Duration: 102.1ms | Allocations: 10576)
+  Rendered layout layouts/application.html.erb (Duration: 217.4ms | Allocations: 21342)
+Completed 500 Internal Server Error in 219ms (Allocations: 21590)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check 
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+
+    <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <%= link_to 'About', _home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+):
+1:    
+2:    <nav class="navbar navbar-expand-lg bg-dark">
+3:      <div class="container-fluid">
+4:    
+5:        <%= link_to 'App', root_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+6:    
+7:        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+8:          <span class="navbar-toggler-icon"></span>
+9:        </button>
+10:        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+11:          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+12:            <li class="nav-item">
+13:                <%= link_to 'About', _home_about_path class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
+14:            </li>
+15:    
+16:          </ul>
+17:          <form class="d-flex" role="search">
+18:            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+19:            <button class="btn btn-outline-light" type="submit">Search</button>
+20:          </form>
+21:        </div>
+22:      </div>
+23:    </nav>
+  
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/home/_header.html.erb:13: syntax error, unexpected label, expecting `do' or '{' or '('
+app/views/layouts/application.html.erb:20
