@@ -1,4 +1,4 @@
-<%= form_with(model: friend) do |form| %>
+<%= form_with(model: friend), data: { turbo: false } do |form| %>
   <% if friend.errors.any? %>
     <div style="color: red">
       <h2><%= pluralize(friend.errors.count, "error") %> prohibited this friend from being saved:</h2>
@@ -11,27 +11,29 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :first_name, style: "display: block" %>
-    <%= form.text_field :first_name %>
+<form>
+  <div class="mb-3"> 
+    <%= form.label :first_name, style: "display: block", class: "form-label" %>
+    <%= form.text_field :first_name, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :email, style: "display: block" %>
-    <%= form.text_field :email %>
+  <div class="mb-3">
+    <%= form.label :email, style: "display: block", class: "form-label" %>
+    <%= form.text_field :email, class: "form-control"  %>
   </div>
 
-  <div>
-    <%= form.label :phone, style: "display: block" %>
-    <%= form.text_field :phone %>
+  <div class="mb-3">
+    <%= form.label :phone, style: "display: block", class: "form-label" %>
+    <%= form.text_field :phone, class: "form-control"  %>
   </div>
 
-  <div>
-    <%= form.label :twitter, style: "display: block" %>
-    <%= form.text_field :twitter %>
+  <div class="mb-3">
+    <%= form.label :twitter, style: "display: block", class: "form-label" %>
+    <%= form.text_field :twitter, class: "form-control"  %>
   </div>
 
-  <div>
-    <%= form.submit %>
+  <div class="mb-3">
+    <%= form.submit class: "btn btn-primary" %>
   </div>
+  </form>
 <% end %>
