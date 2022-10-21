@@ -2,10 +2,6 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
 
 $(document).on("turbo:load", () => {
     console.log("turbo");
