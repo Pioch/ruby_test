@@ -2,7 +2,3 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-
-$(document).on("turbo:load", () => {
-    console.log("turbo");
-}) 

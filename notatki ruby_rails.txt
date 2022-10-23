@@ -45,3 +45,5 @@ devise - gem do tworzenia logowania/rejestracji na rubygems.org (skopiować kome
 
 DO działanie Devises wklić z pliku dodzialania_devices.text
 I utworzyć w app/controllers users/devise_controller.rb
+
+do wylogowania: config.sign_out_via = :delete zamienić delete na get
