@@ -15,15 +15,19 @@ wybór bazy danych w Gemfile
 
 rails route - wyświetla wszystkie ścieżki do stron
 
-Do stworzenia nowej strony:
+//Do stworzenia nowej strony:
 1. app/views/folder/nazwa_strony.html.erb
 2. W app/controllers/folder_controller.rb dopisać def nazwa_podstrony end
 3. W app/controller/config/routes.rb dopisać get 'folder/nazwa_pliku'
 
 Pliki html.erb ładowane w application.html.erb muszą mieć na początku nazwy '_'
 
+//tworzenie bazy danych
+
 komenda rails g scaffold nazwa_tablicy kolumna1:typ_zmiennej kolumna2:typ_zmiennej ... - tworzenie tablicy do bazy danych
 komenda rails db:migrate - dodaje utworzoną tablice do bazy danych
+
+nazwa_kolumny:integer:index - kolumna z id
 
 Przy tworzeniu tablicy jak się nazwie tablicę w liczbie mnogiej zamieni ją na pojedyńczą.
 
@@ -43,7 +47,17 @@ devise - gem do tworzenia logowania/rejestracji na rubygems.org (skopiować kome
 
 <%= link_to 'Sign Out', destroy_user_session_path, method: :delete, class: "nav-link text-light" %> - wylogowanie
 
-DO działanie Devises wklić z pliku dodzialania_devices.text
+//DO działanie Devises wklić z pliku dodzialania_devices.text
 I utworzyć w app/controllers users/devise_controller.rb
 
 do wylogowania: config.sign_out_via = :delete zamienić delete na get
+
+//Połączenie tablic z bazy danych: 
+- w app/models/ - pliki od bazy tablic 
+- tbalica friends ma należeć do user: w friends.rb belongs_to :user i w user.rb -> has_many :friends
+
+W db/schema.rb - tablice bazy danych
+
+//Dodanie kolumny do tablicy //przed dodaniem kolumny należy usunąć wszystkie wiersze z tablicy
+- rails g migration add_user_id_to_friends user_id:integer:index -> rails g migration add_nazwa_kolumny_to_nazwa_tablicy nazwa_kolumny:typ
+- rails db:migrate
