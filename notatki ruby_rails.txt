@@ -67,4 +67,11 @@ W db/schema.rb - tablice bazy danych
 //W nazwa_tablicy_controller.rb:
  def friend_params - lista pól w formie
  before_action :set_friend, only: %i[ show edit update destroy ] - wykonywane przed wywołaną funkcją
-before_action :authenticate_user!, except: [:index, :show] - jeśli użytkownik nie jest uwierzytelniony to wykonaj wszystkie poza tymi w expect
+ before_action :authenticate_user!, except: [:index, :show] - jeśli użytkownik nie jest uwierzytelniony to wykonaj wszystkie poza tymi w expect
+
+current_user -  aktualnie zalogowany użytkownik
+
+@friend = current_user.friends.find_by(id: params[:id]) - sprawdzenie czy id  == id alogowanego użytkownika
+before_action :correct_user, only: [:edit, :update, :destroy] - wywołanie funkcji correct_user przed funkcjami edit, udate, destroy po próbie wywołania ich
+
+//Wyświetlenie zawartości tablicy w konsoli: rails c i nastepnie models/nazwa_pliku.all
