@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container-fluid">
 
-    <%= link_to 'App', home_index_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
+    <%= link_to 'App', friends_path, class: "navbar-brand text-light" %> <!--Link do głównej strony-->
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -12,13 +12,7 @@
         <li class="nav-item">
             <%= link_to 'About', home_about_path, class: "nav-link text-light" %> <!--Link do podstrony (folder_plik_path)--> 
         </li>
-        <li class="nav-item">
-            <%= link_to 'Friends', home_friends_path, class: "nav-link text-light" %> 
-        </li>
-        <li class="nav-item">
-            <%= link_to 'Friends table', friends_path, class: "nav-link text-light" %> 
-        </li>
-
+      
         <% if user_signed_in? %> <!-- czy użytkownik jest zalogowany -->
            <li class="nav-item">
             <%= link_to 'Add Friend', new_friend_path, class: "nav-link text-light" %> 

@@ -75,3 +75,5 @@ current_user -  aktualnie zalogowany użytkownik
 before_action :correct_user, only: [:edit, :update, :destroy] - wywołanie funkcji correct_user przed funkcjami edit, udate, destroy po próbie wywołania ich
 
 //Wyświetlenie zawartości tablicy w konsoli: rails c i nastepnie models/nazwa_pliku.all
+
+//request.path == "/friends"  request.path - aktualna ścieżka

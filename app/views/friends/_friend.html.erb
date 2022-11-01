@@ -1,10 +1,11 @@
 <div id="<%= dom_id friend %>">
-
-
-      <td><%= link_to friend.first_name, friend %></td>
-      <td><%= friend.email %></td>
-      <td><%= friend.phone %></td>
-      <td><%= friend.twitter %></td>
-      <td><%= friend.user_id %></td>
-
-</div>
+  <% if request.path == "/friends" %>
+    <td><%= link_to friend.first_name, friend %></td>
+  <% else %>
+    <td><%= friend.first_name%></td>
+  <% end %>
+  <td><%= friend.email %></td>
+  <td><%= friend.phone %></td>
+  <td><%= friend.twitter %></td>
+  <td><%= friend.user_id %></td>
+</div>	
