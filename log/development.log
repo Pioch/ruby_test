@@ -24084,3 +24084,106 @@ Processing by FriendsController#index as HTML
 Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.3ms | Allocations: 7722)
 
 
+Started GET "/friends" for 127.0.0.1 at 2022-11-04 10:43:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FriendsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering friends/index.html.erb within layouts/application
+  Rendered friends/index.html.erb within layouts/application (Duration: 48.4ms | Allocations: 1038)
+  Rendered home/_header.html.erb (Duration: 3.9ms | Allocations: 652)
+  Rendered layout layouts/application.html.erb (Duration: 2207.6ms | Allocations: 93099)
+Completed 200 OK in 2349ms (Views: 2228.0ms | ActiveRecord: 0.0ms | Allocations: 99283)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-04 10:43:11 +0100
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 2.5ms | Allocations: 150)
+  Rendered home/_header.html.erb (Duration: 4.5ms | Allocations: 311)
+  Rendered layout layouts/application.html.erb (Duration: 41.6ms | Allocations: 3309)
+Completed 200 OK in 54ms (Views: 50.8ms | ActiveRecord: 0.0ms | Allocations: 4156)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-04 10:46:26 +0100
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.5ms | Allocations: 171)
+  Rendered home/_header.html.erb (Duration: 4.9ms | Allocations: 672)
+  Rendered layout layouts/application.html.erb (Duration: 81.5ms | Allocations: 16175)
+Completed 200 OK in 89ms (Views: 86.7ms | Allocations: 17158)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-04 10:46:54 +0100
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.4ms | Allocations: 173)
+  Rendered home/_header.html.erb (Duration: 81.8ms | Allocations: 643)
+  Rendered layout layouts/application.html.erb (Duration: 487.1ms | Allocations: 3963)
+Completed 200 OK in 504ms (Views: 499.5ms | Allocations: 4828)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-04 10:47:19 +0100
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 660.5ms | Allocations: 10806)
+  Rendered layout layouts/application.html.erb (Duration: 661.6ms | Allocations: 10903)
+Completed 500 Internal Server Error in 750ms (Allocations: 11749)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `answer' for #<ActionView::Base:0x00000000011d50>
+
+@output_buffer.safe_append='   '.freeze;@output_buffer.append=( answer );@output_buffer.safe_append='
+                                                                ^^^^^^
+Did you mean?  @answer):
+     6: 
+     7: <p>
+     8:    <% @answer = 2 + 2 %>
+     9:    <%= answer %>
+    10: </p>
+  
+app/views/home/about.html.erb:9
+Started GET "/home/about" for 127.0.0.1 at 2022-11-04 10:48:27 +0100
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 2.1ms | Allocations: 188)
+  Rendered home/_header.html.erb (Duration: 6.4ms | Allocations: 643)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 4011)
+Completed 200 OK in 88ms (Views: 86.5ms | Allocations: 4865)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-04 10:48:39 +0100
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 11.5ms | Allocations: 188)
+  Rendered home/_header.html.erb (Duration: 13.5ms | Allocations: 644)
+  Rendered layout layouts/application.html.erb (Duration: 53.2ms | Allocations: 3987)
+Completed 200 OK in 70ms (Views: 59.8ms | Allocations: 4843)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-04 10:49:15 +0100
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.8ms | Allocations: 206)
+  Rendered home/_header.html.erb (Duration: 5.9ms | Allocations: 643)
+  Rendered layout layouts/application.html.erb (Duration: 26.9ms | Allocations: 3986)
+Completed 200 OK in 42ms (Views: 39.3ms | Allocations: 4842)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2022-11-04 10:49:37 +0100
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 1.9ms | Allocations: 207)
+  Rendered home/_header.html.erb (Duration: 9.3ms | Allocations: 643)
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 3994)
+Completed 200 OK in 59ms (Views: 53.4ms | Allocations: 4860)
+
+

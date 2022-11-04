@@ -77,3 +77,10 @@ before_action :correct_user, only: [:edit, :update, :destroy] - wywołanie funkc
 //Wyświetlenie zawartości tablicy w konsoli: rails c i nastepnie models/nazwa_pliku.all
 
 //request.path == "/friends"  request.path - aktualna ścieżka
+
+//@friend = current_user.friends.build(friend_params) - utworzenie friend dla aktualnego użytkownika
+@nazwa_zmiennej - zmienna globalna
+
+//zmienna lokalna
+<% answer = 2 + 3 %>
+Lokalna: <%= answer %> 

@@ -4,7 +4,8 @@ class HomeController < ApplicationController
   end
 
   def about
-    @about_me = "My name is Piotr" #utworzenie zmiennej do używania na stronach (jak @friends)
+    @about_me = "My name is Piotr" #utworzenie zmiennej do używania na stronach (jak @friends) 
+    @answer = 2 + 2
   end
 
   def friends
