@@ -61,6 +61,11 @@ W db/schema.rb - tablice bazy danych
 //Dodanie kolumny do tablicy //przed dodaniem kolumny należy usunąć wszystkie wiersze z tablicy
 - rails g migration add_user_id_to_friends user_id:integer:index -> rails g migration add_nazwa_kolumny_to_nazwa_tablicy nazwa_kolumny:typ
 - rails db:migrate
+- dopisac  :dodana_kolumna w nazwa_tablicy_controller.rb:
+def nazwa_tablicy_params
+      params.require(:nazwa_tablicy).permit(:kolumny, :dodana_kolumna)
+
+    end
 
 <%= current_user.inspect %> - wyświetla dane o zalogowanym użytkowniku
 
@@ -84,3 +89,17 @@ before_action :correct_user, only: [:edit, :update, :destroy] - wywołanie funkc
 //zmienna lokalna
 <% answer = 2 + 3 %>
 Lokalna: <%= answer %> 
+
+//Używanie zmiennych globalnych w innym views
+- dodać w application_controller.rb: 
+    helper_method :zmienna
+
+    def zmienna
+        @zmienna = wartość zmiennej (np Note.all)
+    end
+
+//pętla for
+<% max = 5 %>
+<% for i in 0..max %>
+    <p><%= i %></p>
+<% end %>

@@ -1,0 +1,28 @@
+<h2>Wszystkie notatki</h2>
+<div id="all_notes" style="">
+<% answer = 0 %>
+    <table class="table table-striped">
+        <thead class="table-dark">
+            <tr>
+            <th scope="col">Lp</th>
+            <th scope="col">Tekst</th>
+            </tr>
+        </thead>
+        <tbody>
+    <% notes.each do |note| %>
+        <!--<%= render note %>-->
+        <% answer += 1%>
+        <tr>
+            <th scope="row"><%= answer %></th>
+            <td><%= note.tekst %></td>
+        </tr>  
+    <% end %>
+    </tbody>
+    </table>
+
+    <!--For test-->
+    <!--<% max = 5 %>
+    <% for i in 0..max %>
+        <p><%= i %></p>
+    <% end %>-->
+</div>

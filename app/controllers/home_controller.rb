@@ -10,4 +10,7 @@ class HomeController < ApplicationController
 
   def friends
   end
+
+  def summary
+  end
 end
