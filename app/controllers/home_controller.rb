@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  before_action :check_user
   def index
     #tu jakis kod mozna wykonac
   end
@@ -12,5 +13,10 @@ class HomeController < ApplicationController
   end
 
   def summary
+  end
+
+  def check_user 
+    @home = current_user
+    redirect_to new_user_session_path, notice: "Niezalogowano" if @home.nil?
   end
 end
